@@ -1,0 +1,26 @@
+---
+whiskers:
+    version: "2.2.0"
+    matrix:
+      - flavor
+    filename: "themes/kmscon/{{ flavor.identifier }}.txt"
+---
+
+palette-black=0,0,0
+palette-red=205,0,0
+palette-green=0,250,0
+palette-yellow=205,205,0
+palette-blue=0,0,238
+palette-magenta=205,0,205
+palette-cyan=0,205,205
+palette-light-grey=229,229,229
+palette-dark-grey=127,127,127
+palette-light-red=255,0,0
+palette-light-green=0,255,0
+palette-light-yellow=255,255,0
+palette-light-blue=92,92,255
+palette-light-magenta=255,0,255
+palette-light-cyan=0,255,255
+palette-white=255,255,255
+palette-foreground=
+palette-background={{ base.rgb }}
